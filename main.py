@@ -1,6 +1,6 @@
 def saudacao(nome):
     """Esta função cumprimenta a pessoa passada como parâmetro."""
-    print(f"Olá, {nome}!")
+    print(f"Olá, {nome}! Seja bem-vindo(a)!")
 
 def verificar_idade(idade):
     """Verifica a idade e imprime uma mensagem."""
