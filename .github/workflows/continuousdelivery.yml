@@ -38,6 +38,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: ${{ github.workspace }}
-          dockerfile: Dockerfile
+          file: Dockerfile
           push: false
           tags: user/app:latest
